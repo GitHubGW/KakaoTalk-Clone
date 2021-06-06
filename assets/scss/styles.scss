@@ -32,3 +32,42 @@ body {
     background-size: 1100px;
   }
 }
+
+// Mobile
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #f9e000;
+    section {
+      height: auto;
+      background: none;
+    }
+    &.logout {
+      background-color: #f9e000;
+    }
+    &.login {
+      background-color: #c7dae5;
+    }
+  }
+
+  .loginContainer {
+    position: static;
+    width: auto;
+    height: auto;
+    transform: none;
+    .loginMain {
+      margin-top: 0;
+      padding-bottom: 120px;
+    }
+  }
+  .chatContainer {
+    position: static;
+    width: auto;
+    transform: none;
+    .chatContent {
+      .chatBox {
+        height: calc(100vh - 119px);
+        min-height: auto;
+      }
+    }
+  }
+}

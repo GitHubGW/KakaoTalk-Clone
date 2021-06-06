@@ -29,6 +29,8 @@ export const handleDeleteMessage = ({ deleteMessageId }) => {
   const deleteLi5 = document.getElementById(Number(deleteMessageId) - 2);
   const deleteLi6 = document.getElementById(Number(deleteMessageId) + 3);
   const deleteLi7 = document.getElementById(Number(deleteMessageId) - 3);
+  const deleteLi8 = document.getElementById(Number(deleteMessageId) + 4);
+  const deleteLi9 = document.getElementById(Number(deleteMessageId) - 4);
 
   console.log(deleteLi, deleteLi2, deleteLi3, deleteLi4, deleteLi5);
 
@@ -60,6 +62,14 @@ export const handleDeleteMessage = ({ deleteMessageId }) => {
     const deleteSpan7 = deleteLi7.querySelector("span");
     deleteSpan7.innerHTML = `<i class="fas fa-exclamation-circle"></i> 삭제된 메세지입니다.`;
     deleteSpan7.style.color = "#A9A9A9";
+  } else if (deleteLi8) {
+    const deleteSpan8 = deleteLi8.querySelector("span");
+    deleteSpan8.innerHTML = `<i class="fas fa-exclamation-circle"></i> 삭제된 메세지입니다.`;
+    deleteSpan8.style.color = "#A9A9A9";
+  } else if (deleteLi9) {
+    const deleteSpan9 = deleteLi9.querySelector("span");
+    deleteSpan9.innerHTML = `<i class="fas fa-exclamation-circle"></i> 삭제된 메세지입니다.`;
+    deleteSpan9.style.color = "#A9A9A9";
   }
 
   // chatBox.removeChild(deleteLi);
