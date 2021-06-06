@@ -1,4 +1,4 @@
-import { handleGetMessage, handleDeleteMessage, handleGetDate, handleGetId } from "./chat";
+import { handleGetMessage, handleDeleteMessage, handleGetDate } from "./chat";
 import alertNotification from "./notification";
 
 const body = document.querySelector("body");
@@ -46,6 +46,7 @@ const handleKeyUp = (event) => {
   const input = form.querySelector("input");
   const button = form.querySelector("button");
   const { value } = input;
+
   if (value.length >= 1) {
     button.style.backgroundColor = "#3B1C1C";
     button.style.color = "white";

@@ -20,8 +20,6 @@ export const handleGetDate = () => {
 };
 
 export const handleDeleteMessage = ({ deleteMessageId }) => {
-  // console.log("handleDeleteMessage", deleteMessageId);
-
   const deleteLi = document.getElementById(deleteMessageId);
   const deleteLi2 = document.getElementById(Number(deleteMessageId) + 1);
   const deleteLi3 = document.getElementById(Number(deleteMessageId) - 1);
@@ -31,8 +29,6 @@ export const handleDeleteMessage = ({ deleteMessageId }) => {
   const deleteLi7 = document.getElementById(Number(deleteMessageId) - 3);
   const deleteLi8 = document.getElementById(Number(deleteMessageId) + 4);
   const deleteLi9 = document.getElementById(Number(deleteMessageId) - 4);
-
-  console.log(deleteLi, deleteLi2, deleteLi3, deleteLi4, deleteLi5);
 
   if (deleteLi) {
     const deleteSpan = deleteLi.querySelector("span");
@@ -124,6 +120,7 @@ export const handleGetMessage = ({ message, nickname }) => {
     `;
   }
   chatBox.appendChild(li);
+
   const allDeleteBtn = document.querySelectorAll(".deleteBtn");
   allDeleteBtn.forEach((deleteBtn) => {
     deleteBtn.addEventListener("click", handleDeleteBtn);
@@ -134,7 +131,6 @@ const handleChatForm = (event) => {
   event.preventDefault();
   const input = chatForm.querySelector("input");
   const { value: message } = input;
-  // handleGetMessage({ message });
 
   if (message.length < 1) {
     return;
@@ -147,8 +143,8 @@ const handleChatForm = (event) => {
 
 if (chatForm) {
   const input = chatForm.querySelector("input");
-  input.focus();
   const button = chatForm.querySelector("button");
+  input.focus();
 
   chatForm.addEventListener("keyup", (event) => {
     if (input.value.length >= 1) {

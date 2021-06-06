@@ -1,4 +1,3 @@
-const body = document.querySelector("body");
 const chatBox = document.getElementById("jsChatBox");
 
 // eslint-disable-next-line import/prefer-default-export
