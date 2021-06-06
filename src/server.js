@@ -2,7 +2,7 @@ import express from "express";
 import morgan from "morgan";
 import socketIO from "socket.io";
 import { join } from "path";
-import dotenv from ""dotenv";
+import dotenv from "dotenv";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
