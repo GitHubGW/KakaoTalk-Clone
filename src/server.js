@@ -2,9 +2,10 @@ import express from "express";
 import morgan from "morgan";
 import socketIO from "socket.io";
 import { join } from "path";
+import dotenv from ""dotenv";
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 3000;
 
 app.set("view engine", "pug");
 app.set("views", join(__dirname, "views"));
