@@ -80,6 +80,7 @@ const handleDeleteBtn = (event) => {
     },
   } = event;
 
+  event.target.style.display = "none";
   io("/").emit("deleteBtn", { deleteMessageId: id });
 };
 
