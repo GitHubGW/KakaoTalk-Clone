@@ -1,0 +1,34 @@
+@import "_reset";
+@import "_variables";
+@import "loginContainer";
+@import "chatContainer";
+@import "notification";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  &.login {
+    .loginContainer {
+      display: none;
+    }
+    .chatContainer {
+      display: block;
+    }
+  }
+  &.logout {
+    .loginContainer {
+      display: flex;
+    }
+    .chatContainer {
+      display: none;
+    }
+  }
+  section {
+    width: 600px;
+    height: 1160px;
+    background: url("../images/iphone.jpg") no-repeat center center;
+    background-size: 1100px;
+  }
+}
