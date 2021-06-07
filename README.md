@@ -4,6 +4,7 @@
 https://kakaotalk-gw.herokuapp.com
 
 ## 🖥 Preview
+<img src="/preview/1.png"><img src="/preview/2.png"><img src="/preview/3.png"><img src="/preview/4.png"><img src="/preview/5.png">
 
 ## 🔥 Stack
 ### Front-end
