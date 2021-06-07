@@ -41,6 +41,7 @@ body {
     section {
       height: auto;
       background: none;
+      transform: scale(1);
     }
     &.logout {
       background-color: #f9e000;
@@ -54,6 +55,7 @@ body {
     position: static;
     width: auto;
     height: auto;
+    min-height: auto;
     transform: none;
     .loginMain {
       margin-top: 0;
