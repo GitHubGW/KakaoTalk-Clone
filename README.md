@@ -1,7 +1,7 @@
 # KakaoTalk-Clone
 
 ## 🔗 Demo
-https://kakaotalk-gw.herokuapp.com
+https://kakaotalk-gw.herokuapp.com 
 
 ## 🖥 Preview
 <img src="/preview/1.png"><img src="/preview/3.png"><img src="/preview/4.png"><img src="/preview/5.png">
