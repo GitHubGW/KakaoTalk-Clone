@@ -13,8 +13,8 @@ https://kakaotalk-gw.herokuapp.com
 <img height="30" src="https://img.shields.io/badge/Gulp-CF4647?style=for-the-badge&logo=Gulp&logoColor=white"/>
 
 ### Back-end
-<img height="30" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node-dot-js&logoColor=white"/> <img height="30" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white"/>
-<img height="30" src="https://img.shields.io/badge/socket.io-010101?style=for-the-badge&logo=socket-dot-io&logoColor=white"/>
+<img height="30" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"/> <img height="30" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white"/>
+<img height="30" src="https://img.shields.io/badge/socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white"/>
 
 ## ✅ Packages
 - [x] ES6
